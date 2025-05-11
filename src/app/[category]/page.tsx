@@ -1,12 +1,12 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
+
 'use client'
-import React from 'react'
-import Product from '@/components/ui/Product'
-import Image from 'next/image';
-import showerIcon from "../../public/shower-icon.svg";
-import productConfig from "../../../public/productConfig.json"
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import Hero from '@/components/ui/Hero';
-let pc = JSON.parse(JSON.stringify(productConfig));
+import Product from '@/components/ui/Product';
+import { usePathname } from 'next/navigation';
+import productConfig from "../../../public/productConfig.json";
+const pc = JSON.parse(JSON.stringify(productConfig));
 function Products() {
   const categoryTitle = usePathname()
   const category = decodeURIComponent(categoryTitle.split("/")[1]);
