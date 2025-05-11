@@ -1,0 +1,51 @@
+.heroWrapper{
+    background: var(--primary-color-dark);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heroText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.heroTitle{
+    font-size: xx-large;
+    white-space: pre;
+    font-weight: bold;
+}
+
+.heroDescription{
+    font-size: small;
+    font-weight: 200;
+}
+
+.heroButton{
+    font-weight: light;
+}
+
+.heroElement{
+    background-color: var(--secondary-color);
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    top: -110px;
+    left: -100px;
+    rotate: 50deg;
+}
+
+.heroElement2{
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    rotate: 50deg;
+    border: 1px solid var(--secondary-color);
+}
