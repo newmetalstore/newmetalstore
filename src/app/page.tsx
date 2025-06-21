@@ -6,9 +6,8 @@ function Home() {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }} className='home-body'>
-
-      <Hero title="NEW METAL" description="Accessori per vetri temperati"></Hero>
-      <main className='categories-wrapper'>
+      <Hero title="NEW METAL" description="Accessori per vetri temperati" showButton={false}></Hero>
+      {/* <main className='categories-wrapper'>
         {Object.keys(pc).filter(Boolean).map((category: string, idx: number) =>
         <Link key={idx} href={"/" + category}>
           <div className="category-title_wrapper">
@@ -16,10 +15,12 @@ function Home() {
           </div>
           </Link>
         )}
+      </main> */}
+
+      <main className='wip'>
+        <h1 className='inter'>COMING SOON</h1>
+        <p className='inter'>ARRIVIAMO PRESTO</p>
       </main>
-
-
-
     </div>
   )
 }

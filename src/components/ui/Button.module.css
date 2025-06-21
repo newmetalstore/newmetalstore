@@ -2,13 +2,12 @@
     all: unset;
     color: var(--primary-color-light);
     padding: 8px 10px;
-    border: 0.5px solid;
     border-radius: 0.2em;
-    font-size: x-small;
+    font-size: xx-small;
     cursor: pointer;
-    transition: background 250ms ease-in-out;
-}
-
-.buttonWrapper:hover{
-    background: rgba(255, 255, 255, 0.196);
+    background: var(--secondary-color);
+    color: var(--primary-color-dark);
+    margin: 5px 0 20px 0;
+    text-transform: uppercase;
+    width: 145px;
 }

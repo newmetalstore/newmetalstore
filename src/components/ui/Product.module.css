@@ -61,6 +61,13 @@
     text-align: center;
 }
 
+.productSubtitleWrapper{
+        display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+}
+
 .productImage{
     margin-top: 20px;
     object-fit: scale-down;

@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Button.module.css'
 
 export interface ButtonProps {
-  text?: string;           // optional, if you want to allow both `text` and `children`
   children?: React.ReactNode;
 }
 
